@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.3.RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>microserver-touchyou-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>user-service-api</module>
+        <module>user-service-impl</module>
+        <module>user-eage-service</module>
+        <module>course-service-api</module>
+        <module>course-service-impl</module>
+        <module>course-eage-service</module>
+        <module>message-service-api</module>
+        <module>message-service-impl</module>
+        <module>message-eage-service</module>
+        <module>gateway</module>
+    </modules>
+
+
+</project>
