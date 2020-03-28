@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * Created by Michael on 2017/11/4.
+ * Created by touchyou on 2019/03/27.
  */
 @Controller
 @RequestMapping("/course")

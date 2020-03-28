@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by Michael on 2017/11/4.
+ * Created by touchyou on 2019/03/27.
  */
 @Component
 public class CourseFilter extends LoginFilter {

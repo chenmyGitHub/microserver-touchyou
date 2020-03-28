@@ -1,7 +1,7 @@
 package com.touchyou.thrift.user.dto;
 
 /**
- * Created by Michael on 2017/11/3.
+ * Created by touchyou on 2019/03/27.
  */
 public class TeacherDTO extends UserDTO {
 

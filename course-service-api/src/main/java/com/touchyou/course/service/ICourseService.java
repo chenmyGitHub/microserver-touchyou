@@ -5,7 +5,7 @@ import com.touchyou.course.dto.CourseDTO;
 import java.util.List;
 
 /**
- * Created by Michael on 2017/11/3.
+ * Created by touchyou on 2019/03/27.
  */
 public interface ICourseService {
 

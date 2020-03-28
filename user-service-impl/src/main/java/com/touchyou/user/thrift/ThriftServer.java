@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.PostConstruct;
 
 /**
- * Created by Michael on 2017/10/28.
+ * Created by touchyou on 2019/03/28.
  */
 @Configuration
 public class ThriftServer {

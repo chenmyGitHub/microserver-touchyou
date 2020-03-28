@@ -25,7 +25,7 @@ import java.io.InputStream;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Michael on 2017/10/31.
+ * Created by touchyou on 2019/03/27.
  */
 public abstract class LoginFilter implements Filter {
 

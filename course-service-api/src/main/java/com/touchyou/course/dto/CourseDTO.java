@@ -6,7 +6,7 @@ import com.touchyou.thrift.user.dto.TeacherDTO;
 import java.io.Serializable;
 
 /**
- * Created by Michael on 2017/11/3.
+ * Created by touchyou on 2019/03/27.
  */
 public class CourseDTO implements Serializable {
 

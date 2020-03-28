@@ -3,7 +3,7 @@ package com.touchyou.user.response;
 import java.io.Serializable;
 
 /**
- * Created by Michael on 2017/10/30.
+ * Created by touchyou on 2019/03/28.
  */
 public class Response implements Serializable {
 
