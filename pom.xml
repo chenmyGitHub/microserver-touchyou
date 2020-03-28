@@ -24,14 +24,14 @@
     <modules>
         <module>user-service-api</module>
         <module>user-service-impl</module>
-        <module>user-eage-service</module>
-        <module>user-eage-service-client</module>
+        <module>user-edge-service</module>
+        <module>user-edge-service-client</module>
         <module>course-service-api</module>
         <module>course-service-impl</module>
-        <module>course-eage-service</module>
+        <module>course-edge-service</module>
         <module>message-service-api</module>
         <module>message-service-impl</module>
-        <module>message-eage-service</module>
+        <module>message-edge-service</module>
         <module>gateway</module>
 
     </modules>
@@ -78,13 +78,13 @@
             </dependency>
             <dependency>
                 <groupId>com.touchyou</groupId>
-                <artifactId>user-eage-service</artifactId>
+                <artifactId>user-edge-service</artifactId>
                 <version>${touchyou-version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.touchyou</groupId>
-                <artifactId>user-eage-service-client</artifactId>
+                <artifactId>user-edge-service-client</artifactId>
                 <version>${touchyou-version}</version>
             </dependency>
 
@@ -93,7 +93,6 @@
                 <artifactId>user-service-api</artifactId>
                 <version>${touchyou-version}</version>
             </dependency>
-
 
             <dependency>
                 <groupId>com.touchyou</groupId>
@@ -108,7 +107,7 @@
             </dependency>
             <dependency>
                 <groupId>com.touchyou</groupId>
-                <artifactId>course-eage-service</artifactId>
+                <artifactId>course-edge-service</artifactId>
                 <version>${touchyou-version}</version>
             </dependency>
 
@@ -124,7 +123,7 @@
             </dependency>
             <dependency>
                 <groupId>com.touchyou</groupId>
-                <artifactId>message-eage-service</artifactId>
+                <artifactId>message-edge-service</artifactId>
                 <version>${touchyou-version}</version>
             </dependency>
 
