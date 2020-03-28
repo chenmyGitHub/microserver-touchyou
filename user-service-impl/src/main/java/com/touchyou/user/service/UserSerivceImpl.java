@@ -1,8 +1,8 @@
-package com.imooc.user.service;
+package com.touchyou.user.service;
 
-import com.imooc.thrift.user.UserInfo;
-import com.imooc.thrift.user.UserService;
-import com.imooc.user.mapper.UserMapper;
+import com.touchyou.thrift.user.UserInfo;
+import com.touchyou.thrift.user.UserService;
+import com.touchyou.user.mapper.UserMapper;
 import org.apache.thrift.TException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

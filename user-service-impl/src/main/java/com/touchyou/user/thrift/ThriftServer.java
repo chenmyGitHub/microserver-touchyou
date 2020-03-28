@@ -1,6 +1,6 @@
-package com.imooc.user.thrift;
+package com.touchyou.user.thrift;
 
-import com.imooc.thrift.user.UserService;
+import com.touchyou.thrift.user.UserService;
 import org.apache.thrift.TProcessor;
 import org.apache.thrift.protocol.TBinaryProtocol;
 import org.apache.thrift.server.TNonblockingServer;

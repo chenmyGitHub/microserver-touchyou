@@ -1,6 +1,6 @@
-package com.imooc.user.mapper;
+package com.touchyou.user.mapper;
 
-import com.imooc.thrift.user.UserInfo;
+import com.touchyou.thrift.user.UserInfo;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

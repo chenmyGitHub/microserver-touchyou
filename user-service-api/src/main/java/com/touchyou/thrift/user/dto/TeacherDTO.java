@@ -1,4 +1,4 @@
-package com.imooc.thrift.user.dto;
+package com.touchyou.thrift.user.dto;
 
 /**
  * Created by Michael on 2017/11/3.
