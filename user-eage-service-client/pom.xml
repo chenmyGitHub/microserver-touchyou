@@ -9,29 +9,43 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>course-eage-service</artifactId>
+    <artifactId>user-eage-service-client</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
         </dependency>
+
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
             <version>2.6</version>
         </dependency>
+
         <dependency>
             <groupId>com.touchyou</groupId>
-            <artifactId>course-service-api</artifactId>
+            <artifactId>user-service-api</artifactId>
         </dependency>
+
         <dependency>
-            <groupId>io.dubbo.springboot</groupId>
-            <artifactId>spring-boot-starter-dubbo</artifactId>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-core-asl</artifactId>
+            <version>1.9.6</version>
         </dependency>
+
         <dependency>
-            <groupId>com.touchyou</groupId>
-            <artifactId>user-eage-service-client</artifactId>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
+        </dependency>
+
     </dependencies>
 </project>

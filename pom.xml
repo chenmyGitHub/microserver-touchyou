@@ -25,6 +25,7 @@
         <module>user-service-api</module>
         <module>user-service-impl</module>
         <module>user-eage-service</module>
+        <module>user-eage-service-client</module>
         <module>course-service-api</module>
         <module>course-service-impl</module>
         <module>course-eage-service</module>
@@ -32,9 +33,8 @@
         <module>message-service-impl</module>
         <module>message-eage-service</module>
         <module>gateway</module>
+
     </modules>
-
-
 
     <dependencyManagement>
         <dependencies>
@@ -48,6 +48,13 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>io.dubbo.springboot</groupId>
+                <artifactId>spring-boot-starter-dubbo</artifactId>
+                <version>1.0.0</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.apache.thrift</groupId>
                 <artifactId>libthrift</artifactId>
@@ -77,9 +84,23 @@
 
             <dependency>
                 <groupId>com.touchyou</groupId>
+                <artifactId>user-eage-service-client</artifactId>
+                <version>${touchyou-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.touchyou</groupId>
                 <artifactId>user-service-api</artifactId>
                 <version>${touchyou-version}</version>
             </dependency>
+
+
+            <dependency>
+                <groupId>com.touchyou</groupId>
+                <artifactId>course-service-api</artifactId>
+                <version>${touchyou-version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.touchyou</groupId>
                 <artifactId>course-service-impl</artifactId>
