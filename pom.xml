@@ -31,6 +31,7 @@
         <module>course-service-impl</module>
         <module>course-edge-service</module>
         <module>message-service-api</module>
+        <module>message-service-impl</module>
         <module>message-edge-service</module>
         <module>gateway</module>
 
@@ -122,6 +123,12 @@
             <dependency>
                 <groupId>com.touchyou</groupId>
                 <artifactId>message-service-api</artifactId>
+                <version>${touchyou-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.touchyou</groupId>
+                <artifactId>message-service-impl</artifactId>
                 <version>${touchyou-version}</version>
             </dependency>
             <dependency>

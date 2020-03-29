@@ -1,7 +1,7 @@
 package com.touchyou.course.filter;
 
 import com.touchyou.thrift.user.dto.UserDTO;
-import com.touchyou.user.client.LoginFilter;
+import com.touchyou.message.client.LoginFilter;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
